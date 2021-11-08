@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 require_once("./gmail_service.php");
 $google_service = new GmailService();
 $google_client = $google_service->get_client();
